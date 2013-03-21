@@ -3,7 +3,7 @@ aggregate-data-from-likes-of-friends
 
 ## Summary
 
-This R code calculates the # of Facebook Likes for brand pages for each of the specified users' friends on Facebooks using its Graph API, aggregates it by the Name and Category of the page, and outputs two .csvs: one for Name, and one for Category. The purpose of this is to identify which pages and which types of pages are most frequently of your friends in order to see what is most likely to contribute towards your Suggested Post News Feed spam.
+This R code calculates the # of Facebook Likes for brand pages for each of the specified users' friends on Facebooks using its Graph API, aggregates it by the Name and Category of the page, and outputs two .csvs: one for Name, and one for Category (+ a bonus bar chart!). The purpose of this is to identify which pages and which types of pages are most frequently of your friends in order to see what is most likely to contribute towards your Suggested Post News Feed spam.
 
 The code does not tabulate likes from friends who have made their likes non-visible to you.
 
