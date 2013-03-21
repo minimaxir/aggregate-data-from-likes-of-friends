@@ -33,12 +33,7 @@ numFriends <- floor(length(JSONfriends[[1]]))
     
     if (length(JSONLikes$data) > 0) {
       
-
-      #x<-sapply(JSONLikes[[1]],unlist)
-      #y<-t(apply(as.array(x),1,getCategoryName))
-      
     try ({
-      #likeData<- data.frame(t(sapply(JSONLikes[[1]],c)))
       likeData<-sapply(JSONLikes[[1]],unlist)
       likeData<-t(apply(as.array(likeData),1,getCategoryName))
       
